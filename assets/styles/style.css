@@ -150,6 +150,7 @@ align-items: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 2rem;
 }
 
 .table{
@@ -157,11 +158,16 @@ align-items: center;
     height: 25rem;
     text-align: center;
     padding-top: 3rem;
+    border-collapse: collapse;
+    
 }
 
-thead, tr, td, th{
-    border: solid 1px black;
+thead, tbody, tr, td, th{
+    border:solid 1px black;
+    background-color: #F7C8E0;
+
 }
+
 
 footer{
     height: 3rem;
