@@ -1,0 +1,173 @@
+
+:root{
+    --rosadito:#F7C8E0;
+    --verde-celeste:#DFFFD8;
+    --celeste:#B4E4FF;
+    --azul:#95BDFF
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--azul);
+}
+header img{
+    width: 3rem;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+.nav-bar a{
+    background-color: var(--rosadito);
+    border-radius: 1rem;
+    padding: 0 0.5rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+main{
+    background-color: var(--verde-celeste);
+    min-height: 90vh;
+}
+
+.contenedor-titulosubtitulo{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.foto1{
+    margin-top: 2rem;
+    width: 100%;
+    object-fit: cover;
+    height: 40vh;
+    border-radius: 1rem;
+}
+
+.parrafo-imagen{
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+
+.parrafo-imagen>p{
+    width: 15rem;
+    background-color: var(--rosadito);
+    border-radius: 1rem;
+    
+}
+
+.parrafo-imagen>img{
+    width: 15rem;
+    padding-bottom: 4rem;
+}
+
+.subrayado{
+    text-decoration: underline;
+}
+
+.helado-parrafo{
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.helado-parrafo>img{
+    width: 15rem;
+    border-radius: 1rem;
+}
+.helado-parrafo>p{
+    padding: 4rem;
+    width: 15rem;
+    background-color:var(--rosadito);
+    border-radius: 1rem;
+}
+
+.helado-parrafo>ol{
+    width: 16rem;
+    background-color: #F7C8E0;
+    list-style-position:inside;
+    border-radius: 0.5rem;
+}
+
+.bombon{
+    height: 15rem;
+}
+.helados{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.helados-muestra{
+   
+    width: 40rem;
+    border-radius: 1rem;
+    
+}
+
+
+.order{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.mail-phono{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+.mail-phono>p{
+    background-color: var(--rosadito);
+    width: 17rem;
+    height: 1.5rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+.main-table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.table{
+    width: 30rem;
+    height: 25rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+thead, tr, td, th{
+    border: solid 1px black;
+}
+
+footer{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--celeste);
+}
+
