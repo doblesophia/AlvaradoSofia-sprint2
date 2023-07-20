@@ -172,6 +172,9 @@ thead, tbody, tr, td, th{
 
 }
 
+ul>li{
+    padding-left: 2rem;
+}
 .raffle{
     width: 40rem;
 }
