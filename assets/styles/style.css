@@ -68,6 +68,9 @@ padding-top: 2rem;
 
 }
 
+.dos_helados {
+    border-radius: 1rem;
+}
 .parrafo-imagen>p{
     width: 15rem;
     background-color: var(--rosadito);
@@ -187,6 +190,7 @@ ul>li{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 
 
 }
@@ -199,6 +203,7 @@ ul>li{
     width: 25em;
   padding-top: 1rem;
   padding-bottom: 1rem;
+ 
 
 }
 
@@ -208,8 +213,10 @@ ul>li{
     padding-top: 1rem;
 }
 
-.textbox input{
-    height: 10rem;
+
+
+input, select, textarea{
+    background-color: #F7C8E0;
 }
 
 .payment-option{
