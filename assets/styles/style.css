@@ -27,6 +27,7 @@ header img{
     align-items: center;
     justify-content: center;
     gap: 1rem;
+    padding-left: 1rem;
     
 }
 .nav-bar a{
@@ -200,7 +201,7 @@ ul>li{
 }
 
 .formulario{
-    width: 25em;
+    width: 25rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
  
@@ -230,7 +231,10 @@ input, select, textarea{
     justify-content: space-between;
 }
 
-
+.send{
+    height: 1.5rem;
+    width: 3rem;
+}
 footer{
     height: 3rem;
     display: flex;
@@ -239,3 +243,146 @@ footer{
     background-color: var(--celeste);
 }
 
+@media (max-width: 1023px) and (min-width: 768px){
+    header{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .nav-bar{
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0;
+        padding-bottom: 1rem;
+    }
+
+    .parrafo-imagen{
+        flex-direction: column-reverse;
+        padding-bottom: 2rem;
+    }
+
+    .helado-parrafo{
+        flex-direction: column;
+    }
+
+    .helado-parrafo p{
+        margin-top: 1rem;
+    }
+
+    .mail-phono{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .main-table{
+        padding-bottom: 3rem;
+    }
+
+    .helado-parrafo ol{
+        margin-top: 1rem;
+    }
+
+    .map-form{
+        flex-direction: column-reverse;
+    }
+
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+
+    .mapa{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        padding: 2rem 0;
+    }
+}
+
+
+@media (max-width: 767px) and (min-width: 320px){
+    header{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .nav-bar{
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0;
+        padding-bottom: 1rem;
+    }
+
+    .parrafo-imagen{
+        flex-direction: column-reverse;
+        padding-bottom: 2rem;
+    }
+
+    .helado-parrafo{
+        flex-direction: column;
+    }
+
+    .helado-parrafo p{
+        margin-top: 1rem;
+    }
+
+    .mail-phono{
+        flex-direction: column;
+        justify-content: flex-start;
+        font-size: 1rem;
+    }
+
+    .order img{
+        width: 15rem;
+    }
+    .order p{
+        font-size: 1rem;
+    }
+
+    .main-table{
+        padding-bottom: 3rem;
+        
+    }
+
+    .table{
+        width: 17rem;
+    }
+
+    .contenedor-titulosubtitulo h3{
+        text-align: center;
+    }
+    .helado-parrafo ol{
+        margin-top: 1rem;
+    }
+
+    .map-form{
+        flex-direction: column-reverse;
+        padding-bottom: 3rem;
+    }
+
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 15rem;
+    }
+
+    .mapa{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        padding-top: 2rem;
+        
+    }
+
+    .raffle{
+        width: 15rem;
+    }
+
+    .term-conditions label{
+        padding-left: 1rem;
+    }
+
+    
+}
