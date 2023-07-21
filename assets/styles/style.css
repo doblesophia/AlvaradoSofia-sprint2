@@ -176,6 +176,10 @@ thead, tbody, tr, td, th{
 
 }
 
+.mcflurry{
+    object-fit: cover;
+}
+
 ul>li{
     padding-left: 2rem;
 }
@@ -256,6 +260,11 @@ footer{
         padding-bottom: 1rem;
     }
 
+    .nav-bar a{
+        width: 10rem;
+        text-align: center;
+    }
+
     .parrafo-imagen{
         flex-direction: column-reverse;
         padding-bottom: 2rem;
@@ -314,11 +323,17 @@ footer{
         padding-bottom: 1rem;
     }
 
+    .nav-bar a{
+        width: 10rem;
+        text-align: center;
+    }
+
     .parrafo-imagen{
         flex-direction: column-reverse;
         padding-bottom: 2rem;
     }
 
+    
     .helado-parrafo{
         flex-direction: column;
     }
